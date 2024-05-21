@@ -4,37 +4,37 @@ const FeatureData = [
   {
     id: 1,
     iconSrc: "/images/icon/icon_13.svg",
-    title: "File sharing",
+    title: "Voice & Video",
     description:
-      "Our deep understanding of project and program management has enabled the success of our clients.",
+      "Allow voice calls between applications and devices that use SIP and WebRTC.",
   },
   {
     id: 2,
     iconSrc: "/images/icon/icon_14.svg",
-    title: "Team Management",
+    title: "IVR & Media",
     description:
-      "Our deep understanding of project and program management has enabled the success of our clients.",
+      "Interactive Call Control Answer, initiate, split and hang-up local or remote call participants.",
   },
   {
     id: 3,
     iconSrc: "/images/icon/icon_15.svg",
-    title: "Time Tracking",
+    title: "Analytics & Reporting",
     description:
-      "Our deep understanding of project and program management has enabled the success of our clients.",
+      "Real-time dashboards provide visibility into key metrics such as call volumes, durations, and customer sentiment.",
   },
   {
     id: 4,
     iconSrc: "/images/icon/icon_16.svg",
-    title: "Voice & video call",
+    title: "Call recordings & transcription",
     description:
-      "Our deep understanding of project and program management has enabled the success of our clients.",
+      "Record phone calls between parties and calls originated from external voice provider with SIPRec.",
   },
   {
     id: 5,
     iconSrc: "/images/icon/icon_17.svg",
-    title: "Cloud storage",
+    title: "Developer Tools & Customization",
     description:
-      "Our deep understanding of project and program management has enabled the success of our clients.",
+      "Robust SDKs and APIs across various programming languages allow seamless integration of communication features into applications.",
   },
 ];
 

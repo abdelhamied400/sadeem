@@ -1,20 +1,20 @@
 const tabData = [
   {
     id: "sp1",
-    title: "Create task",
-    subtitle: "for any team person",
+    title: "Intelligent Chatbots and Virtual Assistants",
+    subtitle: "",
     image: "/images/media/img_06.jpg",
   },
   {
     id: "sp2",
-    title: "Make timeframe",
-    subtitle: "for do the task",
+    title: "Automated Communication Workflows",
+    subtitle: "",
     image: "/images/media/img_05.jpg",
   },
   {
     id: "sp3",
-    title: "Get task complated",
-    subtitle: "by your member",
+    title: "Scalable and Efficient Operations",
+    subtitle: "",
     image: "/images/media/img_06.1.jpg",
   },
 ];
@@ -30,7 +30,7 @@ const ProductTabs = () => {
         {tabData.map((tab) => (
           <li className="nav-item" role="presentation" key={tab.id}>
             <button
-              className={`nav-link ${tab.id === "sp1" ? "active" : ""}`}
+              className={`nav-link h-100 ${tab.id === "sp1" ? "active" : ""}`}
               data-bs-toggle="tab"
               data-bs-target={`#${tab.id}`}
               type="button"

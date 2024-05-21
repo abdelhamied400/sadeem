@@ -17,21 +17,21 @@ const Testimonial = () => {
   const testimonials = [
     {
       id: 1,
-      text: "Having a home based business is a wonderful asset to your life. The problem still stands it comes timeadvertise your business for a cheap cost. I know you have looked answer everywhere.",
-      name: "Rashed kabir",
-      role: "Designer",
+      text: "It's such a game changing service!! \nWith this service, our clients' costs are decreasing as it's always better to automate your process. For example: we used to dedicate agents to confirm all COD orders that we are receiving, but now.. it's all done very smartly and efficiently through automated calls",
+      name: "Asmaa Jarrar",
+      role: "Crystel company",
     },
     {
       id: 2,
-      text: "I really love this product! It has made my life so much easier and I can't imagine going back to the way things were before. Thank you for creating such an amazing solution!",
-      name: "John Doe",
-      role: "Developer",
+      text: "It's such a game changing service!! \nWith this service, our clients' costs are decreasing as it's always better to automate your process. For example: we used to dedicate agents to confirm all COD orders that we are receiving, but now.. it's all done very smartly and efficiently through automated calls",
+      name: "Asmaa Jarrar",
+      role: "Crystel company",
     },
     {
       id: 3,
-      text: "I was a bit skeptical at first, but after trying this product I was blown away by how effective it is. I would highly recommend it to anyone looking for a solution to their problem!",
-      name: "Jane Smith",
-      role: "Marketing Manager",
+      text: "It's such a game changing service!! \nWith this service, our clients' costs are decreasing as it's always better to automate your process. For example: we used to dedicate agents to confirm all COD orders that we are receiving, but now.. it's all done very smartly and efficiently through automated calls",
+      name: "Asmaa Jarrar",
+      role: "Crystel company",
     },
   ];
 
@@ -50,7 +50,12 @@ const Testimonial = () => {
           {testimonials.map((testimonial) => (
             <div className="item" key={testimonial.id}>
               <div className="feedback-block-two text-center">
-                <p className="mb-80 lg-mb-40">{testimonial.text}</p>
+                <p
+                  className="mb-80 lg-mb-40"
+                  style={{ whiteSpace: "pre-wrap" }}
+                >
+                  {testimonial.text}
+                </p>
                 <h4 className="m0">{testimonial.name}</h4>
                 <span className="opacity-75">{testimonial.role}</span>
               </div>

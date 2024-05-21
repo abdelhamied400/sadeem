@@ -32,7 +32,7 @@ const Hero = () => {
         <div className="container">
           <div className="row">
             <div
-              className="col-lg-8 col-md-9 m-auto text-center"
+              className="col-lg-10 col-md-11 m-auto text-center"
               data-aos="fade-up"
             >
               <h1 className="hero-heading fw-normal font-recoleta position-relative">
@@ -41,16 +41,15 @@ const Hero = () => {
                   alt="shape"
                   className="lazy-img shapes line-shape"
                 />
-                Create your
-                <span className="position-relative d-inline-block">
-                  workspace
-                </span>
-                &amp; make life easier.
+                Improve customer interactions across various communication
+                channels using{" "}
+                <span className="position-relative d-inline-block">SADEEM</span>{" "}
+                CPaaS
               </h1>
               <p className="text-lg mb-75 pt-20 lg-mb-50 lg-pt-10">
-                Janu is your online team mangement tool that easy and promot
+                which enables smarter and more efficient communication.
               </p>
-              <div className="d-sm-flex justify-content-center align-items-center">
+              {/* <div className="d-sm-flex justify-content-center align-items-center">
                 <Link
                   href="/contact"
                   className="tran3s fs-17 fw-500 btn-three mb-25 ms-2 me-3"
@@ -70,7 +69,7 @@ const Hero = () => {
                     </strong>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* End .row */}

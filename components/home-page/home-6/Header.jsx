@@ -42,7 +42,7 @@ const Header = () => {
             </Link>
           </div>
           <div className="right-widget ms-auto d-flex align-items-center order-lg-3">
-            <Link
+            {/* <Link
               href="/login"
               className="login-btn-one fs-17 fw-500 tran3s me-3"
             >
@@ -53,7 +53,7 @@ const Header = () => {
               className="contact-btn-two fs-17 fw-500 tran3s d-none d-lg-block"
             >
               Contact us
-            </Link>
+            </Link> */}
           </div>
           {/* /.right-widget */}
           <MainMenu />

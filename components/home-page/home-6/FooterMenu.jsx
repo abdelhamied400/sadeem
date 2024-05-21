@@ -50,14 +50,14 @@ const FooterLinks = () => {
               </Link>
             </div>
             <a href="#" className="email tran3s fs-18 mt-35 mb-15 md-mt-10">
-              januinc@company.com
+              sales@sadeemtech.com
             </a>
             <br />
             <a href="#" className="mobile tran3s fs-20 fw-500">
-              +757 699-4478
+              +966 530623479
             </a>
           </div>
-          {footerData.map(({ title, className, links }) => (
+          {/* {footerData.map(({ title, className, links }) => (
             <div className={className} key={title}>
               <h5 className="footer-title tx-dark fw-500">{title}</h5>
               <ul className="footer-nav-link style-none">
@@ -68,7 +68,7 @@ const FooterLinks = () => {
                 ))}
               </ul>
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </footer>

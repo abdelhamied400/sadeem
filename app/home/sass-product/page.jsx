@@ -51,20 +51,20 @@ const SassProduct = () => {
                     Integrates your tools
                   </div>
                   <h2 className="main-title fw-500">
-                    Connect jano with the
+                    a powerful solution that facilitates{" "}
                     <span className="d-inline-block position-relative">
-                      software
+                      communication
                       <span
                         className="mark-bg"
                         style={{ backgroundColor: "#D6F9EF" }}
                       />
                     </span>
-                    you use.
                   </h2>
                 </div>
                 {/* /.title-style-three */}
                 <p className="text-lg mt-25 mb-60 lg-mb-40">
-                  The EMV roll out was clumsy, expensive and failed to consider.
+                  Software Development Kits to integrate communication features
+                  into applications, websites and business systems seamlessly.
                 </p>
                 <Link
                   href="/pages-menu/about-us-v1"
@@ -103,20 +103,21 @@ const SassProduct = () => {
             >
               <div className="title-style-three">
                 <h2 className="main-title fw-500">
-                  Bring all team
+                  Artificial{" "}
                   <span className="d-inline-block position-relative">
-                    managment
+                    Intelligence
                     <span
                       className="mark-bg"
                       style={{ backgroundColor: "#F7E4FF" }}
                     />
-                  </span>
-                  &amp; task togather
+                  </span>{" "}
+                  &amp; Automation
                 </h2>
               </div>
               {/* /.title-style-three */}
               <p className="text-lg mt-40 mb-100 lg-mt-20 lg-mb-50">
-                After a thorough review of a client’s circumstances and needs.
+                deliver enhanced customer experiences through intelligent
+                chatbots, automated workflows, and adaptive communication.
               </p>
             </div>
           </div>
@@ -128,6 +129,51 @@ const SassProduct = () => {
         </div>
         {/* /.container */}
       </div>
+
+      {/* 
+        =============================================
+        Feature Section Six
+        ============================================== 
+        */}
+      <div className="fancy-feature-six position-relative mt-225 lg-mt-100 xs-mt-80">
+        <div className="container">
+          <div className="row gx-xxl-5 align-items-center">
+            <div className="col-lg-4 col-md-6 mt-40" data-aos="fade-up">
+              <div className="title-style-three mb-65 lg-mb-40">
+                <h2 className="main-title fw-500">
+                  Let’s <br />
+                  <span className="d-inline-block position-relative">
+                    Discover
+                    <span
+                      className="mark-bg"
+                      style={{ backgroundColor: "#E1EDFF" }}
+                    />
+                  </span>
+                  our all products
+                </h2>
+              </div>
+              {/* /.title-style-three */}
+              <Link
+                href="/pages-menu/service-v1"
+                className="btn-five tran3s fw-500 fs-17 text-decoration-underline"
+              >
+                Click here for more info <i className="bi bi-chevron-right" />
+              </Link>
+            </div>
+            <Features />
+          </div>
+        </div>
+        {/* End .container */}
+
+        <div className="shapes shape-one rounded-circle" />
+        <img
+          src="/images/shape/shape_36.svg"
+          alt="shape"
+          className="lazy-img shapes shape-two"
+        />
+        <div className="shapes shape-three rounded-circle" />
+      </div>
+      {/* /.fancy-feature-six */}
 
       {/* 
         =============================================
@@ -153,21 +199,20 @@ const SassProduct = () => {
                     </span>
                   </div>
                   <h2 className="main-title fw-500">
-                    Why you
+                    Sadeem is an intelligent
                     <span className="d-inline-block position-relative">
-                      choose
+                      omni-channel
                       <span
                         className="mark-bg"
                         style={{ backgroundColor: "#D8FFE8" }}
                       />
                     </span>
-                    Janu tools.
+                    communication platform.
                   </h2>
                 </div>
-                {/* /.title-style-three */}
                 <p className="text-lg mt-40 mb-75 lg-mt-30 lg-mb-50">
-                  The core of our service is based on the objective investment
-                  advice we seek to provide support.
+                  enables enterprises to engage with their customers via the
+                  appropriate context and channel.
                 </p>
                 <Link
                   href="/pages-menu/about-us-v1"
@@ -176,9 +221,7 @@ const SassProduct = () => {
                   Try free now
                 </Link>
               </div>
-              {/* /.block-style-two */}
             </div>
-            {/* End .col-lg-5 */}
 
             <div className="col-md-6 order-md-first" data-data-aos="fade-right">
               <div className="tags-wrapper position-relative">
@@ -187,62 +230,35 @@ const SassProduct = () => {
                   alt="shape"
                   className="lazy-img shapes shape-one"
                 />
-                <div className="h3 m0 fw-normal tx-dark">13+</div>
+                <div className="h3 m0 fw-normal tx-dark">10+</div>
                 <p className="text-lg opacity-50 pb-25 lg-pb-10">
-                  Reason to choose us
+                  Tool to help your business
                 </p>
-                <TagList />
+                <TagList
+                  tags={[
+                    {
+                      color: "rgba(255, 130, 130, 0.13)",
+                      text: "1Voice",
+                    },
+                    { color: "rgba(73, 230, 213, 0.13)", text: "SMS" },
+                    { color: "rgba(73, 179, 230, 0.13)", text: "Analytics " },
+                    { color: "rgba(251, 208, 80, 0.15)", text: "API" },
+                    {
+                      color: "rgba(213, 126, 255, 0.15)",
+                      text: "customer management",
+                    },
+                    {
+                      color: "rgba(189, 231, 122, 0.15)",
+                      text: "chat",
+                    },
+                    { color: "rgba(255, 152, 152, 0.15)", text: "video" },
+                  ]}
+                />
               </div>
             </div>
           </div>
         </div>
-        {/* /.container */}
       </div>
-
-      {/* 
-        =============================================
-        Feature Section Six
-        ============================================== 
-        */}
-      <div className="fancy-feature-six position-relative mt-225 lg-mt-100 xs-mt-80">
-        <div className="container">
-          <div className="row gx-xxl-5 align-items-center">
-            <div className="col-lg-4 col-md-6 mt-40" data-aos="fade-up">
-              <div className="title-style-three mb-65 lg-mb-40">
-                <h2 className="main-title fw-500">
-                  Let’s <br />
-                  <span className="d-inline-block position-relative">
-                    Discover
-                    <span
-                      className="mark-bg"
-                      style={{ backgroundColor: "#E1EDFF" }}
-                    />
-                  </span>
-                  our all features
-                </h2>
-              </div>
-              {/* /.title-style-three */}
-              <Link
-                href="/pages-menu/service-v1"
-                className="btn-five tran3s fw-500 fs-17 text-decoration-underline"
-              >
-                Click here for more info <i className="bi bi-chevron-right" />
-              </Link>
-            </div>
-            <Features />
-          </div>
-        </div>
-        {/* End .container */}
-
-        <div className="shapes shape-one rounded-circle" />
-        <img
-          src="/images/shape/shape_36.svg"
-          alt="shape"
-          className="lazy-img shapes shape-two"
-        />
-        <div className="shapes shape-three rounded-circle" />
-      </div>
-      {/* /.fancy-feature-six */}
 
       {/*
         =====================================================
@@ -354,7 +370,7 @@ const SassProduct = () => {
         Pricing Section One
         =====================================================
         */}
-      <div className="pricing-section-one position-relative mt-200 lg-mt-120">
+      {/* <div className="pricing-section-one position-relative mt-200 lg-mt-120">
         <div className="container">
           <div className="row">
             <div className="col-lg-8 m-auto">
@@ -375,13 +391,10 @@ const SassProduct = () => {
                   your plan.
                 </h2>
               </div>
-              {/* /.title-style-three */}
             </div>
           </div>
           <Pricing />
-          {/* /.pricing-table-area-one */}
         </div>
-        {/* End .container */}
 
         <div className="shapes shape-one rounded-circle" />
         <img
@@ -394,14 +407,14 @@ const SassProduct = () => {
           alt="shape"
           className="lazy-img shapes shape-three"
         />
-      </div>
+      </div> */}
 
       {/*
         =====================================================
         Fancy Short Banner Two
         =====================================================
         */}
-      <div
+      {/* <div
         className="fancy-short-banner-two mt-150 lg-mt-100"
         data-data-aos="fade-up"
       >
@@ -422,9 +435,8 @@ const SassProduct = () => {
               </div>
             </div>
           </div>
-          {/* /.bg-wrapper */}
         </div>
-      </div>
+      </div> */}
 
       {/*
         =====================================================
@@ -440,15 +452,15 @@ const SassProduct = () => {
                 data-data-aos="fade-up"
               >
                 <h2 className="main-title fw-500">
-                  Ready to take
+                  Ready to start
                   <span className="d-inline-block position-relative">
-                    plan?
+                    free trial?
                     <span
                       className="mark-bg"
                       style={{ backgroundColor: "#C3F0FF" }}
                     />
                   </span>
-                  It’s just a matter of clike
+                  it's just a matter of a single click
                 </h2>
               </div>
               {/* /.title-style-three */}
@@ -464,7 +476,7 @@ const SassProduct = () => {
                 data-aos-delay="200"
               >
                 <Subscribe />
-                <p className="m0 pt-20">
+                {/* <p className="m0 pt-20">
                   Already a member?
                   <Link
                     href="/login"
@@ -472,7 +484,7 @@ const SassProduct = () => {
                   >
                     Sign in.
                   </Link>
-                </p>
+                </p> */}
               </div>
               {/* /.subscribe-form */}
             </div>
