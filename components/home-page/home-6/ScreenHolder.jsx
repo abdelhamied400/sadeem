@@ -1,36 +1,36 @@
 const logos = [
   {
-    src: "/images/logo/Plogo-1.png",
+    src: "/assets/logo.png",
     width: "193px",
     height: "193px",
-    className: "",
+    className: "p-2",
   },
   {
-    src: "/images/logo/Plogo-2.png",
-    width: "65px",
-    height: "65px",
+    src: "/assets/Tools/2.jpg",
+    width: "125px",
+    height: "125px",
     className: "shapes logo-one",
   },
   {
-    src: "/images/logo/Plogo-3.png",
+    src: "/assets/Tools/3.png",
     width: "105px",
     height: "105px",
     className: "shapes logo-two",
   },
   {
-    src: "/images/logo/Plogo-4.png",
+    src: "/assets/Tools/4.png",
     width: "80px",
     height: "80px",
     className: "shapes logo-three",
   },
   {
-    src: "/images/logo/Plogo-5.png",
-    width: "148px",
-    height: "148px",
-    className: "shapes logo-four",
+    src: "/assets/Tools/5.jpg",
+    width: "80px",
+    height: "80px",
+    className: "shapes logo-four p-2",
   },
   {
-    src: "/images/logo/Plogo-6.png",
+    src: "/assets/Tools/6.jpg",
     width: "105px",
     height: "105px",
     className: "shapes logo-five",
@@ -46,13 +46,18 @@ const ScreenHolder = () => {
           className={`round-bg d-flex align-items-center justify-content-center ${logo.className}`}
           style={{ width: logo.width, height: logo.height }}
         >
-          <img src={logo.src} alt={`logo ${index}`} className="lazy-img" />
+          <img
+            src={logo.src}
+            alt={`logo ${index}`}
+            className="lazy-img rounded-circle"
+          />
         </div>
       ))}
       <img
-        src="/images/shape/shape_32.svg"
+        src="/assets/Tools/1.png"
         alt="shape"
-        className="lazy-img shapes shape-one"
+        width="105px"
+        className="shapes shape-one p-2"
       />
     </div>
   );

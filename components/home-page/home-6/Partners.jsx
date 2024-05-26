@@ -1,7 +1,7 @@
 const Partners = () => {
   const partnersData = [
     {
-      imgSrc: "/images/logo/p-1.png",
+      imgSrc: "/assets/Partners/1.png",
       imgAlt: "logo",
       divClass: "img-box bx-a",
       link: "#",
@@ -10,7 +10,7 @@ const Partners = () => {
       dataAosDelay: "100",
     },
     {
-      imgSrc: "/images/logo/p-2.png",
+      imgSrc: "/assets/Partners/2.png",
       imgAlt: "logo",
       divClass: "img-box bx-b",
       link: "#",
@@ -19,7 +19,7 @@ const Partners = () => {
       dataAosDelay: "200",
     },
     {
-      imgSrc: "/images/logo/p-3.png",
+      imgSrc: "/assets/Partners/3.jpg",
       imgAlt: "logo",
       divClass: "img-box bx-c",
       link: "#",
@@ -28,7 +28,7 @@ const Partners = () => {
       dataAosDelay: "300",
     },
     {
-      imgSrc: "/images/logo/p-4.png",
+      imgSrc: "/assets/Partners/4.jpg",
       imgAlt: "logo",
       divClass: "img-box bx-d",
       link: "#",
@@ -37,7 +37,7 @@ const Partners = () => {
       dataAosDelay: "300",
     },
     {
-      imgSrc: "/images/logo/p-5.png",
+      imgSrc: "/assets/Partners/5.png",
       imgAlt: "logo",
       divClass: "img-box bx-e",
       link: "#",
@@ -46,7 +46,7 @@ const Partners = () => {
       dataAosDelay: "400",
     },
     {
-      imgSrc: "/images/logo/p-6.png",
+      imgSrc: "/assets/Partners/6.png",
       imgAlt: "logo",
       divClass: "img-box bx-f",
       link: "#",
@@ -55,7 +55,7 @@ const Partners = () => {
       dataAosDelay: "500",
     },
     {
-      imgSrc: "/images/logo/p-7.png",
+      imgSrc: "/assets/Partners/7.png",
       imgAlt: "logo",
       divClass: "img-box bx-g",
       link: "#",
@@ -64,7 +64,7 @@ const Partners = () => {
       dataAosDelay: "600",
     },
     {
-      imgSrc: "/images/logo/p-8.png",
+      imgSrc: "/assets/Partners/8.png",
       imgAlt: "logo",
       divClass: "img-box bx-h",
       link: "#",
@@ -73,7 +73,7 @@ const Partners = () => {
       dataAosDelay: "700",
     },
     {
-      imgSrc: "/images/logo/p-9.png",
+      imgSrc: "/assets/Partners/9.png",
       imgAlt: "logo",
       divClass: "img-box bx-i",
       link: "#",
@@ -94,7 +94,14 @@ const Partners = () => {
         >
           <div className={`img-box ${partner.className}`}>
             <a href="#">
-              <img src={partner.imgSrc} alt="logo" className="lazy-img" />
+              <img
+                src={partner.imgSrc}
+                alt="logo"
+                className="lazy-img p-3 rounded-circle"
+                style={{ objectFit: "contain" }}
+                width={175}
+                height={175}
+              />
             </a>
           </div>
           {/* /.img-box */}

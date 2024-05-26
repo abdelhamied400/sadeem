@@ -34,10 +34,11 @@ const Header = () => {
           <div className="logo order-lg-0">
             <Link href="/" className="d-block">
               <Image
-                src="/images/logo/logo_01.png"
+                src="/assets/logo.png"
                 alt="logo"
-                width={95}
-                height={30}
+                width={100}
+                height={100}
+                className="object-contain"
               />
             </Link>
           </div>

@@ -3,19 +3,19 @@ const tabData = [
     id: "sp1",
     title: "Intelligent Chatbots and Virtual Assistants",
     subtitle: "",
-    image: "/images/media/img_06.jpg",
+    image: "/assets/2.png",
   },
   {
     id: "sp2",
     title: "Automated Communication Workflows",
     subtitle: "",
-    image: "/images/media/img_05.jpg",
+    image: "/assets/4.png",
   },
   {
     id: "sp3",
     title: "Scalable and Efficient Operations",
     subtitle: "",
-    image: "/images/media/img_06.1.jpg",
+    image: "/assets/5.png",
   },
 ];
 

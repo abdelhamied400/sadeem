@@ -80,9 +80,9 @@ const Hero = () => {
           >
             <div className="bg-wrapper">
               <img
-                src="/images/media/img_05.jpg"
+                src="/assets/1.png"
                 alt="media"
-                className="lazy-img main-screen w-100"
+                className="bg-white lazy-img main-screen w-100"
               />
             </div>
             {/* /.bg-wrapper */}
