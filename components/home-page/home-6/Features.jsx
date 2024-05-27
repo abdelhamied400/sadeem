@@ -54,13 +54,11 @@ const Features = () => {
             </div>
             <h4 className="mt-25 mb-20">{feature.title}</h4>
             <p className="mb-50">{feature.description}</p>
-            <Link href="/pages-menu/service-details">
-              <img
-                src="/images/icon/icon_18.svg"
-                alt="icon"
-                className="lazy-img"
-              />
-            </Link>
+            <img
+              src="/images/icon/icon_18.svg"
+              alt="icon"
+              className="lazy-img"
+            />
           </div>
         </div>
       ))}

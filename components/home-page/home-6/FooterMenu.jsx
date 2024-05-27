@@ -46,15 +46,15 @@ const FooterLinks = () => {
           <div className="col-lg-3 footer-intro mb-40">
             <div className="logo">
               <Link href="/">
-                <img src="/images/logo/logo_01.png" alt="logo" width={95} />
+                <img src="/assets/logo.png" alt="logo" width={175} />
               </Link>
             </div>
             <a href="#" className="email tran3s fs-18 mt-35 mb-15 md-mt-10">
-              sales@sadeemtech.com
+              {/* sales@sadeemtech.com */}
             </a>
             <br />
             <a href="#" className="mobile tran3s fs-20 fw-500">
-              +966 530623479
+              {/* +966 530623479 */}
             </a>
           </div>
           {/* {footerData.map(({ title, className, links }) => (

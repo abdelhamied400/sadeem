@@ -36,11 +36,11 @@ const Testimonial = () => {
   ];
 
   const goToPrev = () => {
-    sliderRef.current.slickPrev();
+    // sliderRef.current.slickPrev();
   };
 
   const goToNext = () => {
-    sliderRef.current.slickNext();
+    // sliderRef.current.slickNext();
   };
 
   return (

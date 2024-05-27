@@ -193,7 +193,7 @@ const SassProduct = () => {
                     Over
                     <span
                       className="text-decoration-underline"
-                      style={{ color: "#FF7B5E" }}
+                      style={{ color: "#7bcc9f" }}
                     >
                       150,000+ client
                     </span>
@@ -275,7 +275,7 @@ const SassProduct = () => {
               <div className="title-style-three text-center mb-70 lg-mb-40">
                 <div
                   className="icon d-flex align-items-center justify-content-center rounded-circle"
-                  style={{ background: "#FFC961" }}
+                  style={{ background: "#7bcc9f" }}
                 >
                   <img
                     src="/images/icon/icon_19.svg"
@@ -332,7 +332,7 @@ const SassProduct = () => {
                     support
                     <span
                       className="mark-bg"
-                      style={{ backgroundColor: "#FFF3C6" }}
+                      style={{ backgroundColor: "#C8FFC6" }}
                     />
                   </span>
                   us always

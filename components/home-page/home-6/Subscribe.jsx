@@ -1,10 +1,14 @@
 "use client";
+import toast from "react-hot-toast";
 import React from "react";
 
 const Subscribe = () => {
   const handleSubmit = (event) => {
     event.preventDefault(); // prevent form from refreshing the page on submit
     // add your custom submit logic here
+    toast("Thanks for contacting us, we’ll get in touch soon", {
+      position: "bottom-right",
+    });
   };
 
   return (

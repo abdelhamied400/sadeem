@@ -63,7 +63,7 @@ const Home = () => {
                 </div>
                 {/* /.title-style-three */}
                 <p className="text-lg mt-25 mb-60 lg-mb-40">
-                  Software Development Kits to integrate communication features
+                  Software development kits to integrate communication features
                   into applications, websites and business systems seamlessly.
                 </p>
                 <Link
@@ -153,12 +153,12 @@ const Home = () => {
                 </h2>
               </div>
               {/* /.title-style-three */}
-              <Link
-                href="/pages-menu/service-v1"
+              <div
+                role="button"
                 className="btn-five tran3s fw-500 fs-17 text-decoration-underline"
               >
                 Click here for more info <i className="bi bi-chevron-right" />
-              </Link>
+              </div>
             </div>
             <Features />
           </div>
@@ -193,7 +193,7 @@ const Home = () => {
                     Over
                     <span
                       className="text-decoration-underline"
-                      style={{ color: "#FF7B5E" }}
+                      style={{ color: "#7bcc9f" }}
                     >
                       150,000+ client
                     </span>
@@ -230,7 +230,7 @@ const Home = () => {
                   alt="shape"
                   className="lazy-img shapes shape-one"
                 />
-                <div className="h3 m0 fw-normal tx-dark">10+</div>
+                <div className="h3 m0 fw-normal tx-dark">100+</div>
                 <p className="text-lg opacity-50 pb-25 lg-pb-10">
                   Tool to help your business
                 </p>
@@ -275,7 +275,7 @@ const Home = () => {
               <div className="title-style-three text-center mb-70 lg-mb-40">
                 <div
                   className="icon d-flex align-items-center justify-content-center rounded-circle"
-                  style={{ background: "#FFC961" }}
+                  style={{ background: "#7bcc9f" }}
                 >
                   <img
                     src="/images/icon/icon_19.svg"
@@ -327,14 +327,14 @@ const Home = () => {
               >
                 <div className="sc-title text-uppercase">Our partners</div>
                 <h2 className="main-title fw-500">
-                  Our trusted partners
+                  Our trusted partners{" "}
                   <span className="d-inline-block position-relative">
                     support
                     <span
                       className="mark-bg"
-                      style={{ backgroundColor: "#FFF3C6" }}
+                      style={{ backgroundColor: "#C8FFC6" }}
                     />
-                  </span>
+                  </span>{" "}
                   us always
                 </h2>
               </div>
