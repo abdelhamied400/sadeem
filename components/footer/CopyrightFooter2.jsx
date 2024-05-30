@@ -46,15 +46,13 @@ const IconItem = ({ icon, href }) => {
 
 const Footer = () => {
   return (
-    <div className="bottom-footer lg-pb-20 position-relative">
+    <div className="bottom-footer position-relative">
       <div className="container">
-        <div className="row">
+        <div className="row align-items-center">
           <div className="col-lg-4 order-lg-0 mt-15">
-            {/* <ul className="d-flex justify-content-center justify-content-lg-start footer-nav style-none">
-              {links.map((link, index) => (
-                <LinkItem key={index} title={link.title} href={link.href} />
-              ))}
-            </ul> */}
+            <Link href="/">
+              <img src="/assets/logo.png" alt="logo" width={96} />
+            </Link>
           </div>
           <div className="col-lg-4 order-lg-2 mt-15">
             {/* <ul className="d-flex justify-content-center justify-content-lg-end social-icon style-none">

@@ -195,7 +195,7 @@ const Home = () => {
                       className="text-decoration-underline"
                       style={{ color: "#7bcc9f" }}
                     >
-                      150,000+ client
+                      500+ Satisfied Clients
                     </span>
                   </div>
                   <h2 className="main-title fw-500">
@@ -214,12 +214,7 @@ const Home = () => {
                   enables enterprises to engage with their customers via the
                   appropriate context and channel.
                 </p>
-                <Link
-                  href="/pages-menu/about-us-v1"
-                  className="btn-four fw-500"
-                >
-                  Try free now
-                </Link>
+                <a className="btn-four fw-500">Try free now</a>
               </div>
             </div>
 
@@ -327,15 +322,15 @@ const Home = () => {
               >
                 <div className="sc-title text-uppercase">Our partners</div>
                 <h2 className="main-title fw-500">
-                  Our trusted partners{" "}
+                  Our trusted{" "}
                   <span className="d-inline-block position-relative">
-                    support
+                    partners
                     <span
                       className="mark-bg"
                       style={{ backgroundColor: "#C8FFC6" }}
                     />
                   </span>{" "}
-                  us always
+                  support us always
                 </h2>
               </div>
               {/* /.title-style-three */}
@@ -497,15 +492,16 @@ const Home = () => {
 				Footer
 			=====================================================
 			*/}
+
       <div className="footer-style-two theme-basic-footer">
-        <div className="top-footer position-relative">
+        <CopyrightFooter2 />
+        {/* <div className="top-footer position-relative">
           <div className="container">
             <div className="inner-wrapper m-auto">
               <div className="row">
                 <FooterMenu />
               </div>
             </div>
-            {/* /.inner-wrapper */}
           </div>
           <div className="shapes shape-one rounded-circle" />
           <div className="shapes shape-two rounded-circle" />
@@ -519,9 +515,8 @@ const Home = () => {
             alt="shape"
             className="lazy-img shapes shape-four"
           />
-        </div>
+        </div> */}
         {/* /.top-footer */}
-        <CopyrightFooter2 />
       </div>
       {/* /.footer-style-two */}
     </>
