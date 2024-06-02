@@ -66,12 +66,7 @@ const Home = () => {
                   Software development kits to integrate communication features
                   into applications, websites and business systems seamlessly.
                 </p>
-                <Link
-                  href="/pages-menu/about-us-v1"
-                  className="btn-four fw-500"
-                >
-                  Learn More
-                </Link>
+                <a className="btn-four fw-500">Learn More</a>
               </div>
               {/* /.block-style-two */}
             </div>
