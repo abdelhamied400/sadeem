@@ -1,0 +1,134 @@
+/*
+ * Tailwind is imported layer-by-layer rather than via the `@import "tailwindcss"`
+ * shorthand. This keeps every Tailwind rule inside a cascade layer, while the
+ * legacy Bootstrap/SCSS bundle loaded by `app/dev_/layout.tsx` stays unlayered.
+ * Unlayered CSS always outranks layered CSS, so the old theme pages keep their
+ * original reset and the new marketing site keeps Tailwind's. Neither fights the
+ * other, and no `!important` is needed.
+ */
+@layer theme, base, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@theme {
+  /* Palette carried over from the original theme's :root custom properties. */
+  --color-body: #48494e;
+  --color-heading: #090f32;
+  --color-mint: #7bcc9f;
+  --color-aqua: #60ccd3;
+  --color-forest: #548450;
+  --color-slate: #2c343c;
+  --color-panel: #f3f7f8;
+  --color-hairline: #f1f1f1;
+
+  --font-sans: var(--font-gordita), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-recoleta), ui-serif, Georgia, serif;
+
+  /* Floating decorative shapes. Ported 1:1 from _custom-animation.scss. */
+  --animate-drift-down: drift-down 6s infinite linear;
+  --animate-drift-up: drift-up 6s infinite linear;
+  --animate-bob-down: bob-down 3s infinite linear;
+  --animate-swing: swing 25s infinite linear;
+  --animate-swing-reverse: swing-reverse 25s infinite linear;
+  --animate-pulse-soft: pulse-soft 8s infinite linear;
+
+  @keyframes drift-down {
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+    40% {
+      transform: translate3d(0, 20px, 0);
+    }
+  }
+  @keyframes drift-up {
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+    40% {
+      transform: translate3d(0, -20px, 0);
+    }
+  }
+  @keyframes bob-down {
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+    50% {
+      transform: translate3d(0, 10px, 0);
+    }
+  }
+  @keyframes swing {
+    0%,
+    100% {
+      transform: rotate(0);
+    }
+    50% {
+      transform: rotate(90deg);
+    }
+  }
+  @keyframes swing-reverse {
+    0%,
+    100% {
+      transform: rotate(0);
+    }
+    50% {
+      transform: rotate(-90deg);
+    }
+  }
+  @keyframes pulse-soft {
+    0%,
+    100% {
+      opacity: 0.2;
+    }
+    40% {
+      opacity: 1;
+    }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: #fff;
+    color: var(--color-body);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    overflow-x: clip;
+  }
+
+  ::selection {
+    background-color: #2a2a2a;
+    color: #fff;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #000;
+  }
+}
+
+@layer utilities {
+  /* Every decorative shape animation is suppressed for reduced-motion users. */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
